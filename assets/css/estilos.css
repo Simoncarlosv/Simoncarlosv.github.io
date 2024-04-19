@@ -1,0 +1,99 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Menu Section */
+
+.menu {
+  background-color: black;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.boton-port{
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-port:hover{
+  border: 1px solid black;
+  background-color: black;
+}
+.boton-cont{
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-cont:hover{
+  background-color: transparent;
+  color: black;
+}
+
+/* Acerca de mi */
+
+.servicios i{
+  font-size: 20px;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card{
+  transition: 0.5s;
+}
+.card:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.83);
+}
+.boton-cartas{
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-cartas:hover{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+.boton-form{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.boton-form:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
