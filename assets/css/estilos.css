@@ -9,101 +9,111 @@ body {
 }
 /* PAGINA DE CV */
 
-button{
-  transition: 0.5s;
-  border: 1px solid gray;
-  padding: 8px 20px;
-  background-color: gray;
-  margin: 0;
-  float: right;
+.bloque-p{
+  padding-top: 100px;
 }
-button a{
-  transition: 0.5s;
-  color: white;
-  text-decoration: none;
-}
-button:hover{
-  background-color: darkgray;
-  border: 1px solid darkgray;
-}
-button a:hover{
-  color: white;
+
+/*Bloque información Contacto*/
+.info-contacto{
+  padding: 0;
+  background-color: rgb(238, 238, 238);
 }
 .imagen-personal{
+  margin-top: 50px;
+  width: 80%;
+  border-radius: 50%;
+}
+.titulo-contacto{
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+.info-b-cont{
+  padding: 10px 15%;
+}
+.info-b-cont ul li{
+  list-style-type: none;
+  padding-top: 20px;
+}
+.info-b-cont ul li i{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.info-b-cont{
+  letter-spacing: 1px;
+}
+.info-b-leng{
+  padding: 10px 15%;
+}
+.info-b-leng ul li{
+  list-style-type: none;
+  padding-top: 20px;
+}
+.info-b-leng ul li i{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.info-b-leng{
+  letter-spacing: 1px;
+}
+.info-b-cert{
+  padding: 10px 15%;
+}
+.info-b-cert ul li{
+  list-style-type: none;
+  padding-top: 20px;
+}
+.info-b-cert ul li i{
+  font-size: 10px;
+  padding-right: 20px;
+}
+.info-b-cert{
+  letter-spacing: 1px;
+}
+.info-b-prog{
+  padding: 10px 15%;
+}
+.info-b-prog ul li{
+  list-style-type: none;
+  padding-top: 20px;
+}
+.info-b-prog ul li i{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.info-b-prog{
+  letter-spacing: 1px;
+}
+
+
+/*Bloque información Completa*/
+
+.info-completa{
+  padding: 80px 50px;
+}
+.nombre-profesion h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+.profesion{
+  font-size: 30px;
+}
+.presentacion{
+  padding: 50px 0px;
+}
+.t-seccion{
+  font-weight: 600;
+  font-size: 35px;
+}
+.t-seccion i{
+  font-size: 30px;
+  padding-right: 20px;
+}
+hr{
   width: 100%;
 }
-.imagen{
-  width: 50%;
-  margin: auto;
-}
-.bloque-principal{
-  padding: 150px 0px 20px 0px;
-}
-.bloque-secundario{
-  padding: 20px 0px 20px 0px;
-}
-.bloque-principal h1{
-  padding-left: 5px;
-  font-weight: 700;
-  background-color: black;
-  color: white;
-}
-.datos{
-  padding-left: 20px;
-}
-.bloque h2{
-  margin-bottom: 20px;
-}
-.bloque h3{
-  font-size: 20px;
-}
-.bloque ol li{
-  margin-bottom: 50px;
-}
-
-/* PAGINA DE PORTAFOLIO */
-
-
-
-/* Hero Section */
-
-#Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-}
-.boton-port{
-  border: 1px solid black;
-  transition: 0.5s;
-}
-.boton-port:hover{
-  border: 1px solid black;
-  background-color: black;
-}
-.boton-cont{
-  background-color: black;
-  border: 1px solid black;
-  transition: 0.5s;
-}
-.boton-cont:hover{
-  background-color: transparent;
-  color: black;
-}
-
-/* Carrusel */
-
-.primero h5{
-  color: black;
-}
-.primero p{
-  color: black;
-}
-
-/* Acerca de mi */
-
-.servicios i{
-  font-size: 20px;
+.exp-lab li{
+  padding-top: 20px;
 }
 
 /* Mis trabajos */
@@ -113,6 +123,9 @@ button a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+#Mis-trabajos{
+  background-color: rgb(238, 238, 238);
 }
 .card{
   transition: 0.5s;
@@ -150,6 +163,17 @@ button a:hover{
   color: black;
   background-color: white;
   border: 1px solid black;
+}
+
+/* Footer */
+
+.footer{
+  background-color: black;
+  padding: 20px 0px;
+  margin: 0;
+}
+.footer p{
+  color: white;
 }
 
 
