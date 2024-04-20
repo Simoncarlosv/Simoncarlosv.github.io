@@ -33,8 +33,19 @@ button a:hover{
   width: 50%;
   margin: auto;
 }
-.bloque{
-  padding: 20px 0px;
+.bloque-principal{
+  padding: 250px 0px 20px 0px;
+}
+.bloque-secundario{
+  padding: 20px 0px 20px 0px;
+}
+.bloque-principal h1{
+  font-weight: 700;
+  background-color: black;
+  color: white;
+}
+.datos{
+  padding-left: 20px;
 }
 .bloque h2{
   margin-bottom: 20px;
