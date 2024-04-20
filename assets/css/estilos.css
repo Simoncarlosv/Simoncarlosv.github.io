@@ -34,6 +34,15 @@ body {
   color: black;
 }
 
+/* Carrusel */
+
+.primero h5{
+  color: black;
+}
+.primero p{
+  color: black;
+}
+
 /* Acerca de mi */
 
 .servicios i{
